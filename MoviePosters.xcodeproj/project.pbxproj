@@ -14,6 +14,7 @@
 		CD21BCD824CECEA200E198D5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD21BCD624CECEA200E198D5 /* LaunchScreen.storyboard */; };
 		CD21BCE324CECEA200E198D5 /* MoviePostersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD21BCE224CECEA200E198D5 /* MoviePostersTests.swift */; };
 		CD21BCEE24CECEA200E198D5 /* MoviePostersUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD21BCED24CECEA200E198D5 /* MoviePostersUITests.swift */; };
+		CDB1F7C624CED8A70097897F /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB1F7C524CED8A70097897F /* Movie.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		CD21BCE924CECEA200E198D5 /* MoviePostersUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoviePostersUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD21BCED24CECEA200E198D5 /* MoviePostersUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviePostersUITests.swift; sourceTree = "<group>"; };
 		CD21BCEF24CECEA200E198D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDB1F7C524CED8A70097897F /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,6 +131,7 @@
 		CD21BCFB24CECEEA00E198D5 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				CDB1F7C524CED8A70097897F /* Movie.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -282,6 +285,7 @@
 			files = (
 				CD21BCD024CECEA100E198D5 /* ViewController.swift in Sources */,
 				CD21BCCE24CECEA100E198D5 /* AppDelegate.swift in Sources */,
+				CDB1F7C624CED8A70097897F /* Movie.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
