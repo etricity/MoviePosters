@@ -97,9 +97,10 @@
 		CD21BCCC24CECEA100E198D5 /* MoviePosters */ = {
 			isa = PBXGroup;
 			children = (
+				CD21BCFD24CECF0500E198D5 /* Controller */,
+				CD21BCFC24CECEF100E198D5 /* View */,
+				CD21BCFB24CECEEA00E198D5 /* Model */,
 				CD21BCCD24CECEA100E198D5 /* AppDelegate.swift */,
-				CD21BCCF24CECEA100E198D5 /* ViewController.swift */,
-				CD21BCD124CECEA100E198D5 /* Main.storyboard */,
 				CD21BCD424CECEA200E198D5 /* Assets.xcassets */,
 				CD21BCD624CECEA200E198D5 /* LaunchScreen.storyboard */,
 				CD21BCD924CECEA200E198D5 /* Info.plist */,
@@ -123,6 +124,29 @@
 				CD21BCEF24CECEA200E198D5 /* Info.plist */,
 			);
 			path = MoviePostersUITests;
+			sourceTree = "<group>";
+		};
+		CD21BCFB24CECEEA00E198D5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CD21BCFC24CECEF100E198D5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CD21BCD124CECEA100E198D5 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CD21BCFD24CECF0500E198D5 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CD21BCCF24CECEA100E198D5 /* ViewController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -441,7 +465,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.s3743803-s3728738-s3541003.MoviePosters";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -459,7 +483,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.s3743803-s3728738-s3541003.MoviePosters";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
